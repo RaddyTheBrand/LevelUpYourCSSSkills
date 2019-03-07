@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto;
+}
+
+a {
+    font-size: 1.8em;
+    display: block;
+    padding: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}
+
+a[href]:not([class]) {
+    color: brown;
+    text-decoration: underline;
+}
